@@ -1,36 +1,91 @@
 * {
   margin: 0;
   padding: 0;
-  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .head {
-  background-image: url(/cow_photo/240_F_177259529_k2fT0kp73flTWQRoWbRmYgf63yibPW7z.jpg);
-  background-repeat: no-repeat;
-  height: 600px;
-  background-size: 50%;
+  background-image: url('../cow_photo/240_F_177259529_k2fT0kp73flTWQRoWbRmYgf63yibPW7z.jpg');
+
   background-size: cover;
   background-position: center;
-  text-align: center;
-  border: 2px solid black;
+  height: 100vh;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+
+  /* background-size: 50%; */
+  /* text-align: center; */
+  /* border: 2px solid black; */
   
 }
-.heading {
+.head  h2{
   
-color: blueviolet;
-  margin-top:300px;
-  margin-right: 700px;
-  background-color: #26b7c7;
-  border: 1px solid rgb(152, 23, 23);
-  opacity: 0.6;
-  border-radius: 30px;
-
-  /* color: whitesmoke; */
   font-size: 100px;
-  font-family: "Courier New", Courier, monospace;
-  /* background-color: rgb(60, 0, 255); */
-  padding: 10px;
+color: blueviolet;
+text-align: left;
+font-weight: 900;
+padding: 50px;
+font-family: cursive;
+word-spacing: 4px;
+letter-spacing: 10px;
+display: inline-block;
+background-color: #26b7c7;
+  margin-top:300px;
+  margin-left: 30px;
+  /* border: 1px solid rgb(152, 23, 23); */
+  border-radius: 60px;
+  opacity: 0.6;
+
+ 
+  
+}
+.article{
+  width: 80%;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 60px auto;
+  background-color: aquamarine;
+  padding: 60px;
+  /* border: 10px solid yellow; */
+  border-radius: 20px;
+  /* background: linear-gradient(deg45, pink,rgb(122,122,244)); */
+}
+.article h3,#cow-type{
+  text-align: center;
+  font-size: 50px;
+  border-bottom: 5px solid yellow;
+margin-bottom: 50px;
+
+}
+.article p{
+  font-size: 28px;
+  line-height: 2em;
+
+}
+#cow-type{
+  border: none;
+}
+img{
+  width: 300px;
+  height:300px;
+  border-radius: 10px;
+}
+#cow-type h2{
   display: inline-block;
+  background: #26b7c7;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+.cow-img{
+  display: flex;
+  justify-content: space-between;
+  /* flex-direction: column; */
+  gap: 20px;
+  flex-wrap: wrap;
+  
+  margin: 0 20px;
 }
 
 
